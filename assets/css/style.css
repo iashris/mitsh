@@ -1,0 +1,37 @@
+.banner {
+    margin: 2rem auto;
+    width: 100%;
+}
+
+.meta-section {
+    padding: 2rem 4rem;
+}
+
+.meta-section__heading {
+    margin-bottom: 1rem;
+}
+
+.ordered_list {
+    list-style-type: decimal;
+    ;
+    list-style-position: inside;
+}
+
+figure {
+    text-align: center;
+}
+
+.unordered_list {
+    list-style: disc;
+    list-style-position: inside;
+}
+
+@media screen and (min-width: 737px) {
+    /*Target only desktop*/
+    #header h1 {
+        padding: 2rem;
+    }
+    .meta-section {
+        padding: 2rem 8rem;
+    }
+}
